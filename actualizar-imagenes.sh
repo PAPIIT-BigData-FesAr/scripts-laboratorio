@@ -13,7 +13,7 @@ docker volume prune -f
 # 3. Gestión del repositorio
 echo "Actualizando repositorio hadoop-config..."
 rm -rf hadoop-config
-git clone https://github.com/EdgarMorales07/hadoop-config
+git clone https://github.com/PAPIIT-BigData-FesAr/hadoop-config
 
 # 4. Construcción de imágenes
 # Usamos un bloque para manejar errores: si un cd falla, el script se detiene
